@@ -8,8 +8,7 @@ export const ApiPokemonDB = {
                 try {
                         const response = await fetch('http://localhost:3001/pokemons')
                         const data = await response.json()
-                        const body = JSON.stringify(data)
-                        return body
+                        return data
                 } catch (error) {
                         console.log("Error : " + error)
                 }
