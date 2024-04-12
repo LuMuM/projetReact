@@ -2,6 +2,7 @@
 Home Page : Display the list of the 151 existing Pokemons
 */
 
+import { useState, useEffect } from 'react';
 import AccueilCSS from './Accueil.module.css'
 
 export function Accueil() {
